@@ -1,0 +1,18 @@
+
+{
+    "extends": "google",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "space-before-blocks": 0,
+        "no-var": 0,
+        "require-jsdoc":"off",
+        "camelcase":"warn",
+        "max-len":["error",{
+            "code":100
+        }],
+        "eol-last":["error", "never"]
+    }
+    
+}
